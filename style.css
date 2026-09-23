@@ -240,7 +240,6 @@ blockquote,
   background-color: #000000; /* Black border fill */
   padding: 5px; /* Border thickness */
   position: relative;
-  
   /* Outer slant shape */
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
 }
@@ -249,13 +248,29 @@ blockquote,
 .image-panel-1 {
   width: 100%;
   height: 100%;
-  /* Matches the exact outer shape so the 5px border stays even */
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
 }
 
 .image-panel-1 img {
   width: 100%;
-  height: 100%;
+  height: 330%;
   object-fit: cover;
   display: block;
 }
+
+.border-beige-panel-1{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    background-color:#000000 ;
+    padding: 5px;
+}
+
+.beige-panel-1{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    background-color:#f2e3c6 ;
+    padding: 5px;
+}
+    
