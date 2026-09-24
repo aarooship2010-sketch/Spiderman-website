@@ -218,7 +218,7 @@ blockquote,
 
 .panel-1{
   display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 /* Top Full-Width Quote Panel */
@@ -309,3 +309,26 @@ blockquote,
   
 }
 
+.image-panel-2-border{
+  width: 30%;                       
+  height: 150px;                    
+  background-color: #000000;       
+  padding: 7px;                     
+  clip-path: polygon(0% 0%, 100% 55%, 100% 100%, 0 100%);
+  transform: translateY(-110px); 
+}
+
+.image-panel-2{
+  clip-path: polygon(0% 0%, 100% 55%, 100% 100%, 0 100%);
+  width: 100%;                       
+  height: 150px;    
+  overflow: hidden;
+
+}
+
+.image-panel-2 img {
+  width: 100%;
+  height: 450%;
+  object-fit: cover;
+  display: block;
+}
