@@ -215,6 +215,7 @@ blockquote,
   flex-direction: column;
 }
 
+
 .panel-1{
   display: flex;
     gap: 2rem;
@@ -288,6 +289,23 @@ blockquote,
     gap: 2rem;
 }
 
-.border-beige-panel-2{
- 
+  
+.border-beige-panel-2 {
+  width: 25%;                       /* Standardized column width */
+  height: 150px;                    /* Realistic panel height */
+  background-color: #000000;        /* Black border fill */
+  padding: 7px;                     /* Border thickness */
+  clip-path: polygon(0% 55%, 100% 0%, 100% 100%, 0 100%);
+  transform: translateY(-113px);   
 }
+
+.beige-panel-2 {
+  
+  clip-path: polygon(0% 57%, 100% 0%, 100% 100%, 0 100%);
+  width: 100%;                      
+  height: 100%;                     
+  background-color: #f2e3c6;
+  transform: translateY(-13px)
+  
+}
+
