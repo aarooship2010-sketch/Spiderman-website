@@ -204,25 +204,31 @@ blockquote,
   padding: 0;
 }
 
-
 /* Outer Section */
 .yellow-section {
   background-color: #edd942;
   padding: 25px;
   border: 6px solid #000000;
-  margin: 20px;
-  /* Standard block flow */
+  margin: 20px auto;
+  width: 1410px;
+  height: 500px;
+  flex-direction: column;
+}
+
+.panel-1{
+  display: flex;
+    gap: 2rem;
 }
 
 /* Top Full-Width Quote Panel */
 .rectangle-panel {
-  width: auto;
+  width: 96%;
   padding: 1rem 1.5rem;
   border: 5px solid #000000;
   background-color: #f2e3c6;
   text-align: center;
-  margin-bottom: 20px; /* Creates space above the bottom columns */
-  height: 100px;
+  margin-bottom: 20px;
+  height: 85px;
 }
 
 .rectangle-panel p {
@@ -232,51 +238,56 @@ blockquote,
   font-size: 0.95rem;
   line-height: 1.3;
 }
+ 
 
+/* 1. Top Image Border Panel */
 .image-panel-1-border {
-  width: 30%;            /* Total width of Column 1 */
-  height: 200px;         /* Fixed height for image section */
-  background-color: #000000; /* Black border fill */
-  padding: 5px;          /* Thickness of the black border */
-  
-  /* Outer slant shape */
+  width: 25%;
+  height: 200px;
+  background-color: #000000;
+  padding: 5px;
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
 }
 
-/* Inner Image Container */
 .image-panel-1 {
-  width: 100%;           /* Fills 100% of .image-panel-1-border */
-  height: 100%;          /* Fills 100% of .image-panel-1-border */
-  overflow: hidden; 
-  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+  width: 100%;
+  height: 100%;
+   clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+   overflow: hidden;
 }
-      
-/* The Actual Image */
+  
 .image-panel-1 img {
-  width: 100%;           /* Stretches to fill inner box width */
-  height: 350%;          /* Stretches to fill inner box height */
-  object-fit: cover;     /* Fits image neatly without distorting */
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
-
-.border-beige-panel-1 {
+.border-beige-panel-1{
   width: 30%;
-  height: 200px;
-  background-color: #000000; /* Black outer border */
-  padding: 5px;
-  /* Standard spacing to keep them separated */
-  clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
-  margin-top: -60px;
+  Height:200px; 
+  background-color: #000000;
+  margin:20px;
+  float: left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+  padding: 10px;
+  transform: translateY(-20px)
 
 }
 
-
 .beige-panel-1{
-  width: 100%;
-  height: 100%;
-  background-color:#f2e3c6; /* Black outer border */
-  clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
-  margin-top: -60px;
-  transform: translateY(60px);
+   width: 100%;
+  Height:200px; 
+  background-color:#f2e3c6;
+  float: left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+}
+
+.panel-2{
+  display: flex;
+    gap: 2rem;
+}
+
+.border-beige-panel-2{
+ 
 }
