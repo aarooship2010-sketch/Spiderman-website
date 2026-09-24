@@ -284,6 +284,21 @@ blockquote,
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
 }
 
+.square-beige-panel{
+  width: 38%;                       /* Standardized column width */
+  height: 200px;                    /* Realistic panel height */
+  background-color:#f2e3c6;        /* Black border fill */
+  border: 5px solid #000000;            /* Border thickness */
+}
+
+.square-yellow-panel{
+  width: 100%;                       /* Standardized column width */
+  height: 190px;                    /* Realistic panel height */
+  background-color:#edd942;        /* Black border fill */
+  border: 5px solid #000000;  
+  transform: scale(0.9);
+}
+
 .panel-2{
   display: flex;
     gap: 2rem;
@@ -332,3 +347,5 @@ blockquote,
   object-fit: cover;
   display: block;
 }
+
+
