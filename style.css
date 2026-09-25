@@ -143,8 +143,8 @@
   background-color: #A3484E; /* Outer red Border */
   padding: 2px;
   clip-path: polygon(20% 0, 100% 0, 100% 100%, 8% 100%);
-  transform: scale(0.94);
-  transform-origin: 35% center;
+  transform: scale(0.95);
+  transform-origin: 24% center;
  
 
 }
@@ -154,7 +154,7 @@
   height: 80%;
   background-color: #f2e3c6; 
   padding: 1.5rem;
-  clip-path: polygon(20% 0, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(17.5% 0, 100% 0, 100% 100%, 8% 100%);
   align-items: center;
   justify-content: center;
   transform: scale(0.7);
@@ -173,7 +173,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(-230px)
+  transform: translateX(-230px);
 }
 
 /* Inner Boxes for Text */
@@ -188,15 +188,26 @@
  
 }
 
-/* text inside the panel*/
-blockquote,
-.inner-box p {
-  color: #000000;
-  font-size: 0.85rem;
+.story-one{
+   color: #000000;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-style: italic;
+  -webkit-text-stroke: 0.6px #000000;
+  text-align: center;
+}
+
+.story-three,
+.story-two{
+   color: #000000;
+  font-size: 1rem;
   line-height: 1.4;
   font-style: italic;
-  -webkit-text-stroke: 0.3px #000000;
+  -webkit-text-stroke: 0.6px #000000;
+  text-align: center;
 }
+
+
 ------------------------------------------------------------
 * {
   box-sizing: border-box;
@@ -232,14 +243,6 @@ blockquote,
   height: 85px;
 }
 
-.rectangle-panel p {
-  font-family: sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 0.95rem;
-  line-height: 1.3;
-}
- 
 
 /* 1. Top Image Border Panel */
 .image-panel-1-border {
@@ -348,6 +351,21 @@ blockquote,
   display: block;
 }
 
+.story-four {
+   color: #000000;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-style: italic;
+  -webkit-text-stroke: 0.6px #000000;
+}
+
+.story-five {
+   color: #000000;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-style: italic;
+  -webkit-text-stroke: 0.6px #000000;
+}
 
 ---------------------------------------------------
 
@@ -567,6 +585,8 @@ display: flex;
   object-fit: cover;
   display: block;
 }
+
+
 
 .ending-right-quote-border {
  width: 50%;                       
