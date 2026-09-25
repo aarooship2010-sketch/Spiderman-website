@@ -509,5 +509,61 @@ blockquote,
     transform: translate(10px, 15px);
 }
 
------------------------------------------------------------------
+<!---------------------------------------------------------------->
 
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ending-section {
+  background-color: #3b82f6;
+  padding: 25px;
+  border: 6px solid #000000;
+  margin: 20px auto;
+  width: 1410px;
+  height: 500px;
+  flex-direction: column;
+}
+
+
+.ending-top-row {
+display: flex;
+    gap: 3rem;
+
+}
+
+.ending-left-quote-border {
+ width: 50%;                       
+  height: 370px;    
+  overflow: hidden;
+  padding: 5px;
+  border:5px solid #000000;
+   background-color:#edd942;
+  
+}
+
+.ending-left-quote{
+  width: 80%;
+    height: 320px;
+    overflow: hidden;
+    padding: 5px;
+    border: 5px solid #000000;
+    background-color: #f2e3c6;
+    transform: translate(20px, 15px);
+}
+
+.ending-image{
+  width: 150%;
+    height: 380px;
+    overflow: hidden;
+    border: 5px solid #000000;
+}
+
+.ending-image img{
+  width: 100%;
+  height: 165%;
+  object-fit: cover;
+  display: block;
+}
